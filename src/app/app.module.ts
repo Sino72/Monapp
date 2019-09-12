@@ -19,7 +19,7 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      {path: '', component: ProductListComponent}]),
+      {path: '/abc', component: ProductListComponent}]),
   ],
   providers: [],
   bootstrap: [AppComponent]
